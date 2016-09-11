@@ -1,0 +1,52 @@
+Team: Zootopia
+Project: WeDiscuz
+Members: Yilei Chu (chuy1)
+         Jialu Chen (jialuc)
+         Linpeng Lyu (linpengl)
+Date: 05/02/2016
+
+In the project, we build a android project that enable people to have peer-to-peer or group voice/video call. The project contains front end android application, backend servlet service and mysql database.
+
+For the android application, we would build the following features.
+1. Login authentication.
+2. Registration.
+3. Add friends.
+4. Search friends.
+5. Create chat group.
+6. View group profile.
+7. Start voice chat with one friend.
+8. Start video chat with one friend.
+9. Start a group voice chat.
+10. Start a group video chat.
+13. Edit personal profile
+14. Log out.
+15. System setting.
+17. Delete friends.
+18. Delete chatroom.
+
+For the backend, we provide a lot of service for android application.
+1. Login authentication.
+2. Registration.
+3. Feedback user information.
+4. Deal with friend requests.
+5. Deal with group invitation.
+6. Deal with friend requests accept (send only)
+7. Deal with group invitation accept (send and accept)
+8. Deal with chat request (send and accept)
+9. Deal with profile update.
+10. Deal with friend update.
+11. Deal with chatroom update.
+
+For database, there are seven tables.
+1. user_login (email, password)
+2. relationship (user_id, friend_id)
+3. user_profile (user_id, user_name, gender, description)
+4. chatroom_profile (room_id, room_name, host_id, room_description)
+5. chatroom_member_list (room_id, user_id)
+6. message_friend (msg_id, from_user_id, to_user_id, title, time, content, status)
+7. message_chatroom (msg_id, from_user_id, to_user_id, room_id, title, time, content, status)
+
+For local database, there are five tables.
+1. friends (friend_id, friend_name, friend_gender, friend_description)
+2. chatroom_members (room_id, user_id)
+3. my_chatrooms (room_id, room_name, room_description, host_id, host_name)
