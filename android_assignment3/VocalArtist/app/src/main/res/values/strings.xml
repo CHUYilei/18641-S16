@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VocalArtist</string>
+    <string name="main_website"><a href="http://www.ladygaga.com/">Gaga\'s website</a></string>
+    <string name="main_twitter"><a href="https://twitter.com/ladygaga">Gaga\'s Twitter</a></string>
+</resources>

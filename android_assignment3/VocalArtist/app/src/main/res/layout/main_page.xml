@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Songs"
+            android:id="@+id/main_btnSong"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_weight="0.25"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:id="@+id/main_btnVideo"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_weight="0.25"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wallpaper"
+            android:id="@+id/main_btnWallpaper"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_weight="0.25"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/main_btnEmail"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_weight="0.25"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lady Gaga"
+        android:id="@+id/main_name"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#2c57cf"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_website"
+        android:id="@+id/main_link_website"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#449adc"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(310) 867-7000"
+        android:id="@+id/main_contact"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5d6fd1"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ladygaga@gmail.com"
+        android:id="@+id/main_tvemail"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5d6fd1"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like: singing,costume"
+        android:id="@+id/main_like"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5d6fd1"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dislike: sleeping"
+        android:id="@+id/main_dislike"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5d6fd1"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birth: 1984 March 20"
+        android:id="@+id/main_birth"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5d6fd1"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_twitter"
+        android:id="@+id/main_links"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5d6fd1"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        style="@style/LabelStyle"
+        android:textStyle="bold|italic" />
+</LinearLayout>

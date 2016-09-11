@@ -1,0 +1,43 @@
+Coin toss test 1: toss 20 times
+
+Initial side up: heads
+Iteration 1 : heads
+Iteration 2 : heads
+Iteration 3 : heads
+Iteration 4 : tails
+Iteration 5 : tails
+Iteration 6 : heads
+Iteration 7 : heads
+Iteration 8 : heads
+Iteration 9 : heads
+Iteration 10 : tails
+Iteration 11 : tails
+Iteration 12 : tails
+Iteration 13 : heads
+Iteration 14 : heads
+Iteration 15 : heads
+Iteration 16 : tails
+Iteration 17 : tails
+Iteration 18 : heads
+Iteration 19 : tails
+Iteration 20 : heads
+Totally 12 heads, 8 tails
+
+Coin toss test 2: toss 7 times
+
+Iteration 1 : heads
+Iteration 2 : tails
+Iteration 3 : heads
+Iteration 4 : heads
+Iteration 5 : heads
+Iteration 6 : heads
+Iteration 7 : heads
+Totally 6 heads, 1 tails
+
+Coint toss test 3: toss 4 times
+Iteration 1 : tails
+Iteration 2 : heads
+Iteration 3 : heads
+Iteration 4 : heads
+Totally 3 heads, 1 tails
+

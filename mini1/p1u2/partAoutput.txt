@@ -1,0 +1,102 @@
+Test case 1: create and print an Auto instance through CreateAuto interface
+
+****** Able to create an Auto instance through CreateAuto interface ****** 
+
+****** Test FilenameError Exception: please enter FordZTW.txt after exception prompt ****
+
+****** Test BasePriceMissing Exception: please enter 1850 after exception prompt ****
+
+****** Test ModelNameMissing Exception: please enter Ford after exception prompt ****
+
+[Exception 4 ]: File FordZT.txt Not found
+File not found. Please enter a new file name:
+FordZTW.txt
+[Exception 3 ]: Model name not found
+Please enter the model name:
+Ford
+[Exception 1 ]: Model base price not found
+Please enter the base price:
+1850
+
+****** Able to print an Auto instance through CreateAuto interface ******
+
+Attributes of the newly created object:
+Ford
+1850
+
+Color:10
+Fort Knox Gold Clearcoat Metallic=0.0
+Liquid Grey Clearcoat Metallic=0.0
+Infra-Red Clearcoat=0.0
+Grabber Green Clearcoat Metallic=0.0
+Sangria Red Clearcoat Metallic=0.0
+French Blue Clearcoat Metallic=0.0
+Twilight Blue Clearcoat Metallic=0.0
+CD Silver Clearcoat Metallic=0.0
+Pitch Black Clearcoat=0.0
+Cloud 9 White Clearcoat=0.0
+
+Transmission:2
+automatic=0.0
+manual=-815.0
+
+Brakes/Traction Control:3
+Standard=0.0
+ABS=400.0
+ABS with Advance Trac=1625.0
+
+Side Impact Air Bags:2
+None=0.0
+Selected=350.0
+
+Power Moonroof:2
+None=0.0
+Selected=595.0
+
+Test case 2: update the Auto instance through UpdateAuto interface
+
+****** NullPointerException: Not able to update an Auto instance through UpdateAuto interface ******
+
+****** Test OptionSetNotFound Exception ****
+[Exception 2 ]: Option set Colors not found.
+Please enter a new option set name. Currently no change is done.
+
+****** Test OptionNotFound Exception ****
+[Exception 5 ]: Option any color not found.
+Please re-choose a option name. Currently no change is done.
+
+Current auto's attributes
+Ford
+1850
+
+Color:10
+Fort Knox Gold Clearcoat Metallic=0.0
+Liquid Grey Clearcoat Metallic=0.0
+Infra-Red Clearcoat=0.0
+Grabber Green Clearcoat Metallic=0.0
+Sangria Red Clearcoat Metallic=0.0
+French Blue Clearcoat Metallic=0.0
+Twilight Blue Clearcoat Metallic=0.0
+CD Silver Clearcoat Metallic=0.0
+Pitch Black Clearcoat=0.0
+Cloud 9 White Clearcoat=0.0
+
+Transmission:2
+automatic=0.0
+manual=-815.0
+
+Brakes/Traction Control:3
+Standard=0.0
+ABS=400.0
+ABS with Advance Trac=1625.0
+
+Side Impact Air Bags:2
+None=0.0
+Selected=350.0
+
+Power Moonroof:2
+None=0.0
+Selected=595.0
+
+
+Process finished with exit code 0

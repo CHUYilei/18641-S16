@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dip"
+            android:stretchColumns="1"
+            android:layout_margin="5dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Name: "
+                    android:id="@+id/labelName"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewName"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Purchase price($): "
+                    android:id="@+id/labelPrice"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewPrice"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Mortgage term(yrs): "
+                    android:id="@+id/labelTerm"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewTerm"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Interest rate(%): "
+                    android:id="@+id/labelInterest"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewInterest"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="First payment date: "
+                    android:id="@+id/labelFirstDate"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewFirstDate"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Monthly payment($): "
+                    android:id="@+id/labelMonthlyPayment"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewMonthlyPayment"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Total payment($): "
+                    android:id="@+id/labelTotalPayment"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewTotalPayment"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Payoff date: "
+                    android:id="@+id/labelPayoffDate"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewPayoffDate"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Record time: "
+                    android:id="@+id/labelRecordTime"
+                    style="@style/LabelStyle" />
+
+                <TextView
+                    android:id="@+id/viewRecordTime"
+                    style='@style/ViewStyle'/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="&lt;- Back "
+                        android:id="@+id/buttonBack"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

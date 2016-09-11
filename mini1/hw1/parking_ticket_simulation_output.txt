@@ -1,0 +1,21 @@
+Test 1: vehicle within parking time purchased
+Elapsed parking time: 29
+Purchased parking time: 36
+Should issue ticket: false
+
+Test 2: vehicle out of parking time purchased
+Elapsed parking time: 93
+Purchased parking time: 52
+Should issue ticket: true
+Car make in ticket: Audi
+Car model in ticket: A6
+Car color in ticket: white
+Car license in ticket: PA123CDEF
+Name of police issuing ticket: officer
+Badge of police issuing ticket: 12345678
+Fine in dollar: 25
+
+Test 3: vehicle just in parking time purchased
+Elapsed parking time: 80
+Purchased parking time: 80
+Should issue ticket: false

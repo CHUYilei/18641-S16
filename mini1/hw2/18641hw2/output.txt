@@ -1,0 +1,19 @@
+Test case 1: data1.txt
+High Score  100         100         100         90          80          
+Low Score   0           7           0           32          10          
+Average     46.2        42.3        70.5        75.7        49.7        
+
+
+Test case 2: data2.txt
+High Score  78          89          93          91          86          
+Low Score   67          77          84          82          71          
+Average     74.0        83.0        88.0        86.7        78.7        
+
+
+Test case 3: data3.txt
+Input file data3.txt has more than 40 record!
+High Score  100         100         100         90          80          
+Low Score   0           2           0           20          10          
+Average     43.7        40.3        62.4        74.2        52.3        
+
+

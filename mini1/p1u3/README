@@ -1,0 +1,8 @@
+README
+
+synchronized methods are CRUD methods in Automobile class
+
+The caller structure is:
+CRUD methods in Automobile <- EditOptions <- ProxyAutomobile <- BuildAuto <- Driver
+
+Here ProxyAutomobile creates new thread for running editOptions object.

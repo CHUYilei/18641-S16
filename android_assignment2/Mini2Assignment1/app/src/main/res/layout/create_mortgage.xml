@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name:   "
+                        android:id="@+id/textViewName"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editTextName"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- row1: purchase price -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchase price:   "
+                        android:id="@+id/textViewPurchasePrice"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editTextPurchasePrice"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:id="@+id/textViewDollar"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- row2: down payment -->
+
+            <!-- row3: mortgage term  -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mortage term:   "
+                        android:id="@+id/textViewMortgageTerm"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editTextMortgageTerm"
+                        android:text=""
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="years"
+                        android:id="@+id/textViewYrs"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- row4: interest rate  -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Interest rate:   "
+                        android:id="@+id/textViewInterestRate"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editTextInterestRate"
+                        android:text=""
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%"
+                        android:id="@+id/textViewPercent"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+                </LinearLayout>
+            </TableRow>
+
+            <!-- row9: property tax  -->
+
+            <!-- row6: property insurance  -->
+
+            <!-- row6: ZIP code  -->
+
+            <!-- row7: First payment date  -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First payment date:"
+                        android:id="@+id/textViewFirstPaymentDate"
+                        android:textSize="16dp"
+                        android:paddingLeft="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinnerMonth"
+                        android:layout_weight="1"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp"/>
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinnerYear"
+                        android:layout_weight="1"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp"/>
+
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calculate"
+                        android:id="@+id/buttonCalc"
+                        android:padding="9dp"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

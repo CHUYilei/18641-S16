@@ -1,0 +1,21 @@
+************** Test Concurrency (with synchronized)*****************
+Test using multiple threads (thread creation inside ProxyAutomobile)
+
+************** Test 1:edit option price (multi-threading) *****************
+************** Test 2:edit option set choice (multi-threading) *****************
+************** Test 3:edit option set name (multi-threading) *****************
+
+********* Model No.1: *********
+Name: Focus Wagon ZTW
+Base price: 18445
+Model: Gama 775
+Make: Ford
+
+option set: Color choice: French Blue Clearcoat Metallic price = 9.0
+option set: Transmission choice: manual price = -815.0
+option set: Brakes/Traction Control choice: ABS with Advance Trac price = 1625.0
+option set: Side Impact Air Bags choice: Selected price = 350.0
+option set: Power Moonroof choice: Selected price = 595.0
+******** Total price: 20209 ********* 
+
+

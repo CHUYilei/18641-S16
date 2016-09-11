@@ -1,0 +1,39 @@
+********* Model No.1: *********
+Name: Focus Wagon ZTW
+Base price: 18445
+Model: Gama 775
+Make: Ford
+
+option set: Color choice: model.OptionSet$Option@6d06d69c
+option set: Transmission choice: model.OptionSet$Option@7852e922
+option set: Brakes/Traction Control choice: model.OptionSet$Option@4e25154f
+option set: Side Impact Air Bags choice: model.OptionSet$Option@70dea4e
+option set: Power Moonroof choice: model.OptionSet$Option@5c647e05
+******** Total price: 20200 ********* 
+
+
+********* Model No.2: *********
+Name: Audi A6
+Base price: 39290
+Model: Beta 231
+Make: Audi
+
+option set: Color choice: model.OptionSet$Option@33909752
+option set: Transmission choice: model.OptionSet$Option@55f96302
+option set: Brakes/Traction Control choice: model.OptionSet$Option@3d4eac69
+option set: Side Impact Air Bags choice: model.OptionSet$Option@42a57993
+******** Total price: 38700 ********* 
+
+
+********* Model No.3: *********
+Name: BMW X5
+Base price: 69370
+Model: ALPINA B6
+Make: BMW
+
+option set: Color choice: model.OptionSet$Option@75b84c92
+option set: Brakes/Traction Control choice: model.OptionSet$Option@6bc7c054
+option set: Power Moonroof choice: model.OptionSet$Option@232204a1
+******** Total price: 70170 ********* 
+
+

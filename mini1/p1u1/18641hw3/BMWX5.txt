@@ -1,0 +1,15 @@
+Name=BMW X5
+BasePrice=69370
+Option Set:3
+Color:3
+Liquid Grey Clearcoat Metallic=0
+CD Silver Clearcoat Metallic=0
+Pitch Black Clearcoat=0
+Brakes/Traction Control:3
+Standard=0
+ABS=800
+ABS with Advance Trac=2025
+Power Moonroof:2
+None=0
+Selected=880
+

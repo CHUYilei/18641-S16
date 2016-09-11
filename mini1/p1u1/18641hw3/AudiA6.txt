@@ -1,0 +1,19 @@
+Name=Audi A6
+BasePrice=39290
+Option Set:4
+Color:5
+Infra-Red Clearcoat=0
+Grabber Green Clearcoat Metallic=0
+Sangria Red Clearcoat Metallic=0
+CD Silver Clearcoat Metallic=0
+Pitch Black Clearcoat=0
+Transmission:2
+automatic=0
+manual=-890
+Brakes/Traction Control:2
+Standard=0
+ABS=300
+Side Impact Air Bags:2
+None=0
+Selected=500
+

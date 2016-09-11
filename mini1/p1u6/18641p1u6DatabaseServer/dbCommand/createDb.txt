@@ -1,0 +1,6 @@
+DROP DATABASE CarModelDb;
+create database CarModelDb;
+use CarModelDb;
+create table CarModel(modelId INT not null PRIMARY KEY, make VARCHAR(100) not null,basePrice FLOAT not null);
+create table CarOptionSet(setId INT not null, modelId INT not null, setName VARCHAR(100) not null,PRIMARY KEY (setId,modelId),FOREIGN KEY fk_opset(modelId) REFERENCES CarModel(modelId) ON UPDATE CASCADE ON DELETE CASCADE);
+create table CarOption(optionId INT not null, setId INT not null,modelId INT not null,optionName VARCHAR(100) not null,optionPrice FLOAT not null,PRIMARY KEY (optionId,setId,modelId), FOREIGN KEY fk_option(setId) REFERENCES CarOptionSet(setId) ON UPDATE CASCADE ON DELETE CASCADE);
